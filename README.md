@@ -43,6 +43,19 @@ static/
 templates/
 utils/
 ```
+## 📸 Screenshots
+
+### Home Page
+
+![Home](docs/home.png)
+
+### Upload PDF
+
+![Upload](docs/upload.png)
+
+### Chat Interface
+
+![Chat](docs/chat.png)
 
 ## Author
 
