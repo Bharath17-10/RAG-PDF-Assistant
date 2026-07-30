@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI PDF Assistant</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= Sidebar ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-book-open"></i>
+
+            <h2>AI PDF Assistant</h2>
+
+        </div>
+
+        <button id="newChatBtn" class="new-chat">
+
+            <i class="fa-solid fa-plus"></i>
+
+            New Chat
+
+        </button>
+
+        <div class="section">
+
+            <h3>Uploaded Document</h3>
+
+            <div id="pdfCard" class="pdf-card">
+
+                <i class="fa-solid fa-file-pdf"></i>
+
+                <div>
+
+                    <p id="pdfName">No PDF Uploaded</p>
+
+                    <span id="pdfSize">0 MB</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <h3>Recent Chats</h3>
+
+            <div id="historyList" class="history-list">
+
+                <!-- Chat History -->
+
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- ================= Main ================= -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>AI PDF Chatbot</h1>
+
+                <p>Chat with your PDF using AI</p>
+
+            </div>
+
+            <button id="themeBtn" class="theme-btn">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+        </header>
+                <!-- ================= Upload Section ================= -->
+
+        <section class="upload-section">
+
+            <div class="upload-box">
+
+                <input
+                    type="file"
+                    id="pdfFile"
+                    accept=".pdf"
+                    hidden
+                >
+
+                <button id="browseBtn" class="browse-btn">
+
+                    <i class="fa-solid fa-folder-open"></i>
+
+                    Choose PDF
+
+                </button>
+
+                <button id="uploadBtn" class="upload-btn">
+
+                    <i class="fa-solid fa-upload"></i>
+
+                    Upload
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= Chat Area ================= -->
+
+        <section
+            id="chatBox"
+            class="chat-container">
+
+            <!-- Welcome Message -->
+
+            <div class="message ai">
+
+                <div class="avatar">
+
+                    🤖
+
+                </div>
+
+                <div class="bubble">
+
+                    <h4>AI Assistant</h4>
+
+                    <p>
+
+                        👋 Welcome!
+
+                        Upload a PDF and ask me
+                        anything about it.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+                <!-- ================= Input Area ================= -->
+
+        <footer class="chat-input">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask something about your PDF..."
+                autocomplete="off"
+            >
+
+            <button id="sendBtn" class="send-btn">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </footer>
+
+    </main>
+
+</div>
+
+
+<!-- ================= Loading ================= -->
+
+<div id="loading" class="loading">
+
+    <div class="loader"></div>
+
+    <p>Processing...</p>
+
+</div>
+
+
+<!-- ================= Toast ================= -->
+
+<div id="toast" class="toast">
+
+    Success
+
+</div>
+
+
+<!-- ================= Scripts ================= -->
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>

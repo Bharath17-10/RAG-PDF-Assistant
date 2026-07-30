@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Uploaded PDFs
+uploads/
+
+# FAISS Index
+faiss_index/
+
+# VS Code
+.vscode/
