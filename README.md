@@ -1,5 +1,23 @@
 # 🤖 AI PDF Chatbot using RAG
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
+
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
+
+![FAISS](https://img.shields.io/badge/FAISS-FF6F00?style=for-the-badge)
+
+![Groq](https://img.shields.io/badge/Groq-000000?style=for-the-badge)
+
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface)
+
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5)
+
+![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 > An AI-powered PDF Question Answering system built using **FastAPI**, **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Groq LLM**. Upload any PDF and ask questions in natural language to receive intelligent, context-aware answers.
 
 ---
